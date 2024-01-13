@@ -17,7 +17,7 @@
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/DB_LAB_04_TABLE_PER_HIERARCHY"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/DB_LAB_04_TABLE_PER_CLASS"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value=""/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>
@@ -43,7 +43,7 @@
 
         <properties>
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
-            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/DB_LAB_04_TABLE_PER_CLASS"/>
+            <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost/DB_LAB_04_TABLE_PER_HIERARCHY"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
             <property name="jakarta.persistence.jdbc.password" value=""/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQL57Dialect"/>

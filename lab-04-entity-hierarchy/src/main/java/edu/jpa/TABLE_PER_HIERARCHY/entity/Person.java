@@ -1,7 +1,11 @@
 package edu.jpa.TABLE_PER_HIERARCHY.entity;
 
 import jakarta.persistence.*;
-
+// Entitatile care fac parte din acelasi tabel au nevoie de ceva care
+// sa discrimineze (diferentieze) intre clasele posibile ale instantelor
+@Entity
+@Inheritance(strategy=InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name="TYPE", discriminatorType=DiscriminatorType.STRING)
 public abstract class Person {
     @Id
     private int id;
