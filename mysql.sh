@@ -1,0 +1,1 @@
+docker run --restart always -p 3306:3306 --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=true -v ./db_persist:/var/lib/mysql -d -t mysql:5.5.49
