@@ -11,7 +11,8 @@ import jakarta.persistence.EntityManagerFactory;
 import jakarta.persistence.Persistence;
 import java.util.ArrayList;
 
-public class Launcher {
+public class
+Launcher {
     static {
         PropertyConfigurator.configure(Launcher.class.getResource("/log4j.properties"));
     }
