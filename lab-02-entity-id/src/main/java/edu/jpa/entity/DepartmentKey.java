@@ -1,7 +1,13 @@
 package edu.jpa.entity;
 
-public class DepartmentKey {
+import jakarta.persistence.Embeddable;
+import jakarta.persistence.Id;
+import jakarta.persistence.IdClass;
+
+@Embeddable
+public class DepartmentKey implements java.io.Serializable {
     private String companyName;
+
     private String departmentName;
 
     public String getCompanyName() {
