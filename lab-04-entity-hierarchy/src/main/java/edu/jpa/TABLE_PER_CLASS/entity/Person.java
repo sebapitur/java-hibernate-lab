@@ -2,6 +2,10 @@ package edu.jpa.TABLE_PER_CLASS.entity;
 
 import jakarta.persistence.*;
 
+// fiecare entitate cu tabela ei
+// are nevoie de sql union pentru a naviga prin entitati
+// NU se fac joinuri
+// The UNION operator is used to combine the result-set of two or more SELECT statements.
 @MappedSuperclass
 @Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 public abstract class Person {

@@ -1,7 +1,8 @@
 package edu.jpa.TABLE_PER_SUBCLASS.entity;
 
 import jakarta.persistence.*;
-
+// ROOT of the entities - single table
+// the entity is found by making joins between many tables
 @Entity
 @Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Person {
